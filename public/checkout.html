@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Payment Integration</title>
+      <meta name="description" content="This is the description">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://js.stripe.com/v3/"></script>
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="stylesheet" href="global.css" />
+      <script src="client.js" defer></script>
+   </head>
+   <body>
+      <header class="main-header">
+         <h2>Payment Integration</h2>
+      </header>
+      <section class="content-section container">
+         <div class="col col-md-6">
+            <div class="thumbnail">
+               <img src="images/album_metallica.jpg" alt="metallica album"/>
+            </div>
+         </div>
+         <div class="col col-md-6">
+            <h2>Add your card details</h2>
+            <hr>
+            <!-- Display a payment form -->
+            <form id="payment-form">
+               <div id="card-element">
+                  <!--Stripe.js injects the Card Element-->
+               </div>
+               <button id="submit">
+                  <div class="spinner hidden" id="spinner"></div>
+                  <span id="button-text">Pay</span>
+               </button>
+               <p id="card-error" role="alert"></p>
+               <p class="result-message hidden">
+                  Payment succeeded, see the result in your
+                  <a href="" target="_blank">Stripe dashboard.</a> Refresh the page to pay again.
+               </p>
+            </form>
+         </div>
+      </section>
+      <footer class="main-footer">
+   </body>
+</html>
