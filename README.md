@@ -16,6 +16,12 @@ The project was created to simulate an e-commerce that supports one-time payment
 git clone git@github.com:mendes-dev/payment-project.git
 ```
 
+3. Install Node.js
+```
+You can follow the instructions for your OS here: https://nodejs.org/en/download/package-manager/
+```
+
+
 ## How to test the integration
 
 1. Open the terminal
