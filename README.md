@@ -8,7 +8,7 @@ The project was created to simulate an e-commerce that supports one-time payment
 1. Make sure that you have `git` properly set up in your machine and you have access to `Github`
 ```
 - How to set up Git: https://docs.github.com/en/github/getting-started-with-github/set-up-git
-- How to set up a GutHub Account: https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account
+- How to set up a GitHub Account: https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account
 ```
 
 2. Open the terminal
@@ -32,7 +32,7 @@ node -v
 
 1. Open the terminal
 
-2. Get into the `payment-integration` project folter
+2. Get into the `payment-project` project folter
 
 3. Execute the following command that will run the app in your machine
 ```
