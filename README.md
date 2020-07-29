@@ -32,7 +32,7 @@ node -v
 
 1. Open the terminal
 
-2. Get into the `payment-project` project folter
+2. Get into the `payment-project` folter
 
 3. Execute the following command that will run the app in your machine
 ```
