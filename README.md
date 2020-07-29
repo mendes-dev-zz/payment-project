@@ -1,4 +1,4 @@
-# Metalica E-commerce
+# Metallica E-commerce
 > PaymentIntents Integration (Stripe)
 
 The project was created to simulate an e-commerce that supports one-time payments using Stripe's PaymentIntents Integration
