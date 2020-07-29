@@ -11,12 +11,14 @@ The project was created to simulate an e-commerce that supports one-time payment
 - How to set up a GutHub Account: https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account
 ```
 
-2. Clone the project on your machine
+2. Open the terminal
+
+3. Clone the project on your machine
 ```
 git clone git@github.com:mendes-dev/payment-project.git
 ```
 
-3. Install Node.js
+4. Install Node.js
 ```
 You can follow the instructions for your OS here: https://nodejs.org/en/download/package-manager/
 ```
