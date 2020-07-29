@@ -23,6 +23,10 @@ git clone git@github.com:mendes-dev/payment-project.git
 You can follow the instructions for your OS here: https://nodejs.org/en/download/package-manager/
 ```
 
+5. Verify if Node is working and you have the lastest version `6.14.7`
+```
+node -v
+```
 
 ## How to test the integration
 
